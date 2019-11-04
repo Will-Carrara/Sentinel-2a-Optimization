@@ -1,3 +1,6 @@
+# function calculates error based on Euclidean distance between a point and 
+# a line for every id. Line is composed of points from Landsat 7 & 8. 
+
 error = function(ID, COEFF){
   diff = c()
   
