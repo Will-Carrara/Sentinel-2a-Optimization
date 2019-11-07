@@ -1,4 +1,4 @@
-anomaly = function (ID, set) {
+cloudDetect = function (ID, set) {
     thresh = .78
     
     subSET = set[which(set$id == ID), ]
