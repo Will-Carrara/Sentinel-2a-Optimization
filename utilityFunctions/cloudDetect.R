@@ -40,7 +40,7 @@ cloudDetect = function (ID, set) {
         }
       }
     
-      else if (Sy[num] < (satsY[p-1]-.2) || Sy[num] < thresh*satsY[p+1]){
+      else if (Sy[num] < (satsY[p-1]-.2) || Sy[num] < thresh*satsY[p+1] || Sy[num] < mean(satsY)/3){
         outNDVI = c(outNDVI, Sy[num])
         outDATE = c(outDATE, Sx[num])
       }
