@@ -4,7 +4,7 @@
 error = function(ID, COEFF){
   diff = c()
   
-  COEFF = anomaly(ID, COEFF)
+  COEFF = cloudDetect(ID, COEFF)
   
   xL8 = L8$date[L8$id == ID]
   yL8 = L8$ndvi[L8$id == ID]
