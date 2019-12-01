@@ -14,7 +14,7 @@ process = function (path, year) {
   data = data[order(data$date),]
   
   # remove duplicate dates for every unique id
-  data = data[!duplicated(data[c(2,3)]),]
+ # data = data[!duplicated(data[c(2,3)]),]
 
   return(data)
 }
